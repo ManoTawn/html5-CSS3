@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+   background-color: rgb(24, 218, 131);
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+   border-radius: 30px;
+   
+  
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2{
+    margin-left: 40px;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: IDroid
+}
+h3{
+    margin-left: 30px;
+    font-family: IDroid
+}
+header > p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    
+}
+
+nav{
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: large;
+    margin-top: 30px;
+    margin-left: 20px;
+   
+    }
+
+    a{
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+   
+}
+
+main{
+    background-color: beige;
+    margin:  1px 50px;
+    
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+#ft{
+    margin-left: 170px;
+    padding: 20px;
+}
+
+.fim{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+video{
+    width: 620px;
+    border: 15px solid darkgreen; border-radius: 15px;
+    
+}
+#pump{
+    background-color: darkgreen; 
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    
+   
+}
+
+.dd{
+  background-color: rgba(127, 255, 212, 0.579);
+  border-radius: 15px;
+  margin: 20px;
+  padding: 15px;
+  box-shadow: 3px 3px 3px black;
+}
+
+footer{
+    background-color: aqua;
+    width: 170px;
+    margin-left: 30px;
+    padding: 5px;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em html</title>
+</head>
+<body>
+    
+        <h1>Imagens dinâmicas</h1>
+
+    
+
+    <p>tente abrir esse site de varios dispositivos, de acordo com o seu 
+        aparelho
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/photo-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/photo-m.png" type="image/png">
+        <img src="Imagens/photo-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>Trabalhando com áudios</h2>
+
+    <p>Aqui vamos aprender a colocar audios em HTML</p>
+    <audio src="midia/kidplay.mp3" controls autoplay></audio>
+    <!--WAV, MP3, OGG-->
+    
+</body>
+</html>

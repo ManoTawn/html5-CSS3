@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico.png" type="image/x-icon">
+    <title>Teste de incone de favorito</title>
+
+</head>
+<body>
+    <h1>Bora trabalhar!</h1>
+    
+    <img src="html.ico.png" alt="incone de favorito" id="foto">
+
+    <script> 
+         var a = document.getElementById("foto")
+         a.addEventListener("mouseenter", entrar)
+          a.addEventListener("mouseout", sair)
+
+          
+          function entrar() { 
+            a.style.background= "green"
+            
+          }
+          function sair() {
+            a.style.background= "white"
+          }
+
+
+    </script>
+    
+</body>
+</html>
