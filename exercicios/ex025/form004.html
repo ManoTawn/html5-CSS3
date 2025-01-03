@@ -9,18 +9,28 @@
     <h1>Formulários</h1>
 
     <form action="cadastro.js" method="get">
+     <fieldset>
+        <legend>
+            Dados pessoais
+        </legend>
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required>
+        </p>
+        
         <p>
             <label for="iemail">E-Mail: </label>
             <input type="email" name="email" id="iemail" required>
         </p>
         <p>
             <label for="itel">Telefone: </label>
-            <input type="tel" name="tel" id="itel" pattern="^[0-9]{4}-[0-9]{4}$">
+            <input type="tel" name="tel" id="itel" pattern="^\d{4,5}-\d{4,5}$" placeholder="xxxxx-xxxx">
         </p>
         <p>
             <input type="submit" value="Go">
             <input type="reset" value="Clear" autocomplete="tel">
         </p>
+     </fieldset>
 
     </form>
 
